@@ -1,5 +1,5 @@
 # Design-Lab
-*Design Laboratory - grupa 5*
+*Design Laboratory - grupa 5/zespół 4*
 
 *Autorzy:* Hubert Kloc,
          Adrian Cich
