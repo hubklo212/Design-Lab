@@ -16,7 +16,7 @@ Mamy zamiar zaprojektować lampkę zasilaną (prawdopodobnie) bateryjnie, która
 
 *Podział pracy ze względu na tygodnie:*
 
-19.10-26.10 - zapooznanie się z działaniem i budową mikrokontrolera; domówienie odpowiedniego sprzętu
+19.10-26.10 - zapooznanie się z działaniem i budową mikrokontrolera; domówienie odpowiedniego sprzętu/załatwienie sprzętu
 
 26.10-9.11  - nauka sterowania podstawowymi funkcjami posiadanego sprzętu/oczekiwanie na zamówione komponenty
 
