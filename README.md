@@ -6,8 +6,7 @@
 
 *Temat projektu:* Lampka sterowana wschodem/zachodem słońca (dokładna godzina pobierana przez moduł WiFi ze strony https://sunrisesunset.io/api/)
 
-*Opis:*
-
+*Opis:* 
 Mamy zamiar zaprojektować lampkę zasilaną (prawdopodobnie) bateryjnie, która poprzez podłączenie do internrtu pobierze ze strony https://sunrisesunset.io/ API, następnie zapali się, po zachodzie słońca
 
 *Wykorzystywany sprzęt:*
