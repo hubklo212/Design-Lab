@@ -15,6 +15,7 @@ Możliwość rozbudowania aplikacji komputerowej o dodatkowe funkcje, np. sterow
 
 
 *Wykorzystywany sprzęt:*
+
 ESP8266 - 
 
 
