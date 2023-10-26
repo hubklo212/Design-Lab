@@ -22,7 +22,7 @@ ESP8266 -
 
 *Podział pracy ze względu na tygodnie:*
 
-19.10-02.11 - zapooznanie się z działaniem i budową mikrokontrolera; domówienie odpowiedniego sprzętu/załatwienie sprzętu
+19.10-02.11 - domówienie odpowiedniego sprzętu/załatwienie sprzętu; zapooznanie się z działaniem i budową mikrokontrolera;
 
 02.10-09.11 - nauka sterowania podstawowymi funkcjami posiadanego sprzętu/oczekiwanie na zamówione komponenty
 
