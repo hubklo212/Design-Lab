@@ -24,7 +24,7 @@ ESP8266 -
 
 19.10-02.11 - domówienie odpowiedniego sprzętu/załatwienie sprzętu; zapooznanie się z działaniem i budową mikrokontrolera;
 
-02.10-09.11 - nauka sterowania podstawowymi funkcjami posiadanego sprzętu/oczekiwanie na zamówione komponenty
+02.10-09.11 - nauka sterowania podstawowymi funkcjami posiadanego sprzętu/oczekiwanie na zamówione komponenty; dokumentacja sprzętowa projektu
 
 09.11-23.11 - nauka obsługi modułu WiFi do łączenia się z aplikacją na komputerze 
 
