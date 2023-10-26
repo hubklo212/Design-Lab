@@ -4,7 +4,7 @@
 *Autorzy:* Hubert Kloc,
          Adrian Cich
 
-*Temat projektu:* Lampka sterowana wschodem/zachodem słońca (dokładna godzina pobierana przez moduł WiFi z aplikacji komputerowej https://sunrisesunset.io/api/)
+*Temat projektu:* Lampka sterowana wschodem/zachodem słońca (łączność z komputerem poprzez WiFi; aplikacja na komputerze pobiera odpowiednie dane)
 
 *Opis:* 
 Mamy zamiar zaprojektować lampkę zasilaną (prawdopodobnie) bateryjnie, która poprzez WiFi łączy się z komputerem. 
