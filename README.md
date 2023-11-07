@@ -1,37 +1,29 @@
 # Design-Lab
-*Design Laboratory - grupa 5/zespół 4*
+*Design Laboratory - group 5/team 4*
 
-*Autorzy:* Hubert Kloc,
+*Authors:* Hubert Kloc,
          Adrian Cich
 
-*Temat projektu:* Lampka sterowana wschodem/zachodem słońca (łączność z komputerem poprzez WiFi; aplikacja na komputerze pobiera odpowiednie dane)
+*Project Topic*: Sunrise/Sunset Controlled Lamp (WiFi communication with a computer; computer application fetching relevant data)
 
-*Opis:* 
-Mamy zamiar zaprojektować lampkę zasilaną (prawdopodobnie) bateryjnie, która poprzez WiFi łączy się z komputerem. 
-Na komputerze znajduje się aplikacja pobierająca ze strony https://sunrisesunset.io/ API. 
-Łączenie nastąpi raz na jakiś czas, by zaktualizować dane. Lampka zapali się po zachodzie słońca.
-Możliwość rozbudowania aplikacji komputerowej o dodatkowe funkcje, np. sterowanie jasnością, zmiana barwy itp.
+*Description*: We intend to design a lamp powered, most likely, by batteries that connects to a computer via WiFi. The computer hosts an application fetching data from the https://sunrisesunset.io/ API. The connection occurs periodically to update data. The lamp will turn on after sunset. There's potential for expanding the computer application with additional functions like brightness control, color changes, etc.
 
+*Equipment Used*:
 
+ESP8266 -
 
-*Wykorzystywany sprzęt:*
+*Work Breakdown by Weeks*:
 
-ESP8266 - 
+19.10-02.11 - Procuring suitable equipment/understanding the microcontroller's operation and structure.
 
+02.10-09.11 - Learning to control basic functions of the acquired equipment/waiting for ordered components; hardware documentation for the project.
 
+09.11-23.11 - Learning to manage the WiFi module to connect with the computer application.
 
-*Podział pracy ze względu na tygodnie:*
+23.11-07.12 - Writing the essential part of the required code.
 
-19.10-02.11 - domówienie odpowiedniego sprzętu/załatwienie sprzętu; zapooznanie się z działaniem i budową mikrokontrolera;
+07.12-21.12 - Refining visual elements and perfecting what's incomplete.
 
-02.10-09.11 - nauka sterowania podstawowymi funkcjami posiadanego sprzętu/oczekiwanie na zamówione komponenty; dokumentacja sprzętowa projektu
+23.12-02.01 - Holiday break.
 
-09.11-23.11 - nauka obsługi modułu WiFi do łączenia się z aplikacją na komputerze 
-
-23.11-07.12 - napisanie części właściwej potrzebnego kodu
-
-07.12-21.12 - poprawa części wizualnych i dopracowanie tego co niedopracowane
-
-23.12-02.01 - przerwa świąteczna
-
-04.01       - możliwe zgłoszenie gotowości projektu i przygotowanie do zaliczenia
+04.01 - Possibly declaring project readiness and preparing for assessment.
