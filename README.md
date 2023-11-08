@@ -1,22 +1,30 @@
-# Design-Lab
-*Design Laboratory - group 5/team 4*
+# **Design Laboratory - group 5/team 4**
 
-*Authors:* Hubert Kloc,
-         Adrian Cich
+## *Authors:* 
+Hubert Kloc,
 
-*Project Topic*: Sunrise/Sunset Controlled Lamp (WiFi communication with a computer; computer application fetching relevant data)
+Adrian Cich
 
-*Description*: We intend to design a lamp powered, most likely, by batteries that connects to a computer via WiFi. The computer hosts an application fetching data from the https://sunrisesunset.io/ API and sends the extracted relevant data. The connection occurs periodically to update the data. The lamp will turn on after sunset. There's potential for expanding the computer application with additional functions like brightness control, color changes, etc.
+## *Project Topic*: 
+Sunrise/Sunset Controlled Lamp (WiFi communication with a computer; computer application fetching relevant data)
 
-*Equipment Used*:
+## *Description*: 
+We intend to design a lamp powered, most likely, by batteries that connects to a computer via WiFi. The computer hosts an application fetching data from the https://sunrisesunset.io/ API and sends the extracted relevant data to the chip. The connection occurs periodically to update the data. The lamp will turn on after sunset. There's potential for expanding the computer application with additional functions like brightness control, color changes, etc.
 
-NodeMCU v3 - ESP8266 development kit: https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf 
+## *Equipment Used*:
+
+### NodeMCU v3 - ESP8266 development kit: 
+https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf 
 https://www.espressif.com/sites/default/files/documentation/esp8266-technical_reference_en.pdf
 
-![NodeMCU-ESP8266-Pinout](https://github.com/hubklo212/Design-Lab/assets/94645329/9a01b7e8-d913-4a53-9bd5-96420af91eca)
 NodeMCU Pinout
 
-*Work Breakdown by Weeks*:
+![NodeMCU-ESP8266-Pinout](https://github.com/hubklo212/Design-Lab/assets/94645329/9a01b7e8-d913-4a53-9bd5-96420af91eca)
+
+### LED Tape (not yet)
+(link here)
+
+## *Work Breakdown by Weeks*:
 
 19.10-02.11 - Procuring suitable equipment/understanding the microcontroller's operation and structure.
 
