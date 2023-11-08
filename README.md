@@ -6,11 +6,15 @@
 
 *Project Topic*: Sunrise/Sunset Controlled Lamp (WiFi communication with a computer; computer application fetching relevant data)
 
-*Description*: We intend to design a lamp powered, most likely, by batteries that connects to a computer via WiFi. The computer hosts an application fetching data from the https://sunrisesunset.io/ API. The connection occurs periodically to update data. The lamp will turn on after sunset. There's potential for expanding the computer application with additional functions like brightness control, color changes, etc.
+*Description*: We intend to design a lamp powered, most likely, by batteries that connects to a computer via WiFi. The computer hosts an application fetching data from the https://sunrisesunset.io/ API and sends the extracted relevant data. The connection occurs periodically to update the data. The lamp will turn on after sunset. There's potential for expanding the computer application with additional functions like brightness control, color changes, etc.
 
 *Equipment Used*:
 
-ESP8266 -
+NodeMCU v3 - ESP8266 development kit: https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf 
+https://www.espressif.com/sites/default/files/documentation/esp8266-technical_reference_en.pdf
+
+![NodeMCU-ESP8266-Pinout](https://github.com/hubklo212/Design-Lab/assets/94645329/9a01b7e8-d913-4a53-9bd5-96420af91eca)
+NodeMCU Pinout
 
 *Work Breakdown by Weeks*:
 
@@ -20,7 +24,7 @@ ESP8266 -
 
 09.11-23.11 - Learning to manage the WiFi module to connect with the computer application.
 
-23.11-07.12 - Writing the essential part of the required code.
+23.11-07.12 - Writing the essential part of the required code (app code + estabilishing the connection between it and the board).
 
 07.12-21.12 - Refining visual elements and perfecting what's incomplete.
 
