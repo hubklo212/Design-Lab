@@ -32,9 +32,9 @@ NodeMCU Pinout
 
 09.11-23.11 - Learning to manage the WiFi module to connect with the computer application.
 
-23.11-07.12 - Writing the essential part of the required code (app code + estabilishing the connection between it and the board).
+23.11-14.12 - Writing the essential part of the required code (app code + estabilishing the connection between it and the board).
 
-07.12-21.12 - Refining visual elements and perfecting what's incomplete.
+14.12-21.12 - Refining visual elements and perfecting what's incomplete.
 
 23.12-02.01 - Holiday break.
 
