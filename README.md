@@ -9,7 +9,7 @@ Adrian Cich
 Sunrise/Sunset Controlled Lamp (WiFi communication with a computer; computer application fetching relevant data)
 
 ## *Description*: 
-We intend to design a lamp powered, most likely, by batteries that connects to a computer via WiFi. The computer hosts an application fetching data from the https://sunrisesunset.io/ API and sends the extracted relevant data to the chip. The connection occurs periodically to update the data. The lamp will turn on after sunset. There's potential for expanding the computer application with additional functions like brightness control, color changes, etc.
+We intend to design a battery powered lamp that connects to a smartphone via WiFi. The smartphone hosts an application fetching data from the https://sunrisesunset.io/ API and sends the extracted relevant data to the chip. The connection occurs periodically to update the data. The lamp will turn on after sunset. There's potential for expanding the application with additional functions like brightness control, color changes, etc.
 
 ## *Equipment Used*:
 
@@ -28,13 +28,13 @@ NodeMCU Pinout
 
 19.10-02.11 - Procuring suitable equipment/understanding the microcontroller's operation and structure.
 
-02.10-09.11 - Learning to control basic functions of the acquired equipment/waiting for ordered components; hardware documentation for the project.
+02.10-09.11 - Searching for materials to learn from and playing with example projects/waiting for ordered components; hardware documentation for the project.
 
-09.11-23.11 - Learning to manage the WiFi module to connect with the computer application.
+09.11-23.11 - Learning to control basic functions of the acquired equipment/Learning to manage the WiFi module to connect with anything.
 
-23.11-14.12 - Writing the essential part of the required code (app code + estabilishing the connection between it and the board).
+23.11-21.12 - Writing the essential part of the required code (app code + estabilishing the connection between it and the board).
 
-14.12-21.12 - Refining visual elements and perfecting what's incomplete.
+21.12-23.12 - Refining visual elements and perfecting what's incomplete.
 
 23.12-02.01 - Holiday break.
 
