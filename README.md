@@ -30,9 +30,9 @@ Work in progress, it's being sorted out right now
 
 02.10-09.11 - Searching for materials to learn from and playing with example projects/waiting for ordered components; hardware documentation for the project.
 
-09.11-23.11 - Learning to control basic functions of the acquired equipment/Learning to manage the WiFi module to connect with anything.
+09.11-23.11 - Learning Kotlin for Android app disign (Hubert) + Learning to control basic functions of the acquired equipment (both of us).
 
-23.11-21.12 - Writing the essential part of the required code (app code + estabilishing the connection between it and the board).
+23.11-21.12 - Writing the essential part of the required code (app code + estabilishing the connection between it and the board)/building the lamp with available components.
 
 21.12-23.12 - Refining visual elements and perfecting what's incomplete.
 
