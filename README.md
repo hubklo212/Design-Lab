@@ -22,7 +22,7 @@ NodeMCU Pinout
 ![NodeMCU-ESP8266-Pinout](https://github.com/hubklo212/Design-Lab/assets/94645329/9a01b7e8-d913-4a53-9bd5-96420af91eca)
 
 ### LED Tape (not yet)
-(link here)
+Work in progress, it's being sorted out right now
 
 ## *Work Breakdown by Weeks*:
 
