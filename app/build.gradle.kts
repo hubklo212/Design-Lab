@@ -52,13 +52,17 @@ android {
 
 dependencies {
 
+    // Retrofit - API control
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     implementation("com.squareup.okhttp3:okhttp:4.11.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
+    implementation("org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5")
+    implementation("org.eclipse.paho:org.eclipse.paho.android.service:1.1.1")
 
 
-    // FusedLocationProvider
+
+    // FusedLocationProvider - for localisation fetching purposes
     implementation("com.google.android.gms:play-services-location:18.0.0")
 
     implementation("androidx.core:core-ktx:1.9.0")
