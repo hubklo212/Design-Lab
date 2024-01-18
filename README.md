@@ -21,8 +21,22 @@ NodeMCU Pinout
 
 ![NodeMCU-ESP8266-Pinout](https://github.com/hubklo212/Design-Lab/assets/94645329/9a01b7e8-d913-4a53-9bd5-96420af91eca)
 
-### LED Tape (not yet)
-Work in progress, it's being sorted out
+### LED Tape
+WS2812B - classic addressable LED strip powered with DC5V. We used 1m of it (60LEDs/m). 
+
+## *Software used*:
+Android Studio - application for android
+Visual Studio Code with PlatformIO - ESP8266 application
+
+## *Quick setup instruction*:
+1. Flash the ESP8266 with the program. Specify the WiFi network parameters of yours. Remember the IP address of the board (shown in serial or you can check it in the router/hotspot settings) (you can also change the duration of LEDs being turned on).
+2. Connect the board to the LED strip using pin D4 for data and in our case Vin and GND for power supply; powering the board with micro-USB cable is the easiest, however for longer LED strips it may be not enough to power each LED properly.
+3. Install the app on your phone using .apk or download whole project.
+4. Enter IP address of the board and press "Update manually" to get the sunset time or type in fixed time in the text field at the top of the screen.
+5. Click "Send".
+6. The board will calculate the time between now() and the time parsed by app. After this time the LEDs should turn on.
+7. When the board is on and connected to your WiFi you can repeat the process how many times you want by sending the sunset time or fixed time value.
+Enjoy!
 
 ## *Work Breakdown by Weeks*:
 
