@@ -22,7 +22,7 @@ NodeMCU Pinout
 ![NodeMCU-ESP8266-Pinout](https://github.com/hubklo212/Design-Lab/assets/94645329/9a01b7e8-d913-4a53-9bd5-96420af91eca)
 
 ### LED Tape
-WS2812B - classic addressable LED strip powered with DC5V. We used 1m of it (60LEDs/m). 
+WS2812B - classic addressable LED strip powered with DC5V. We used 1m of it (60LEDs/m). It came in with the connector soldered to it.
 
 ## *Software used*:
 Android Studio - application for android
