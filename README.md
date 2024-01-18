@@ -35,7 +35,7 @@ Visual Studio Code with PlatformIO - ESP8266 application
 3. Install the app on your phone using .apk or download whole project.
 4. Enter IP address of the board and press "Update manually" to get the sunset time or type in fixed time in the text field at the top of the screen.
 5. Click "Send".
-6. The board will calculate the time between now() and the time parsed by app. After this time the LEDs should turn on.
+6. The board will calculate the time between now("now" as for the moment it receives the data from app) and the time parsed by app. After this time the LEDs should turn on.
 7. When the board is on and connected to your WiFi you can repeat the process how many times you want by sending the sunset time or fixed time value.
 Enjoy!
 
