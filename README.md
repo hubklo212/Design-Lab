@@ -9,7 +9,7 @@ Adrian Cich
 Sunrise/Sunset Controlled Lamp (WiFi communication with an android application)
 
 ## *Description*: 
-We intend to design lamp that connects to a smartphone via WiFi. The smartphone hosts an application fetching data from the https://sunrisesunset.io/ API and sends the extracted relevant data to the ESP8266 module. The connection occurs periodically to update the data (maybe some day). The lamp will turn on after sunset. There also is a possibility to enter a fixed time in the app. There's potential for expanding the application with additional functions like brightness control, color changes, etc. as we used FastLED to control the LED tape.
+We intend to design lamp that connects to a smartphone via WiFi. The smartphone hosts an application fetching data from the https://sunrisesunset.io/ API and sends the extracted relevant data to the ESP8266 module. The connection occurs periodically to update the data (maybe some day). The lamp will turn on after sunset. There also is a possibility to enter a fixed time in the app at whitch it will turn on. There's potential for expanding the application with additional functions like brightness control, color changes, etc. as we used FastLED to control the LED tape.
 
 ## *Equipment Used*:
 
