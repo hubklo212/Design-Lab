@@ -27,7 +27,7 @@ WS2812B - classic addressable LED strip powered with DC5V. We used 1m of it (60L
 ## *Software used*:
 Android Studio - application for android
 
-Visual Studio Code with PlatformIO - ESP8266 application (code in different repository: "ESP8266sunsetLED"
+Visual Studio Code with PlatformIO - ESP8266 application (code in different repository: "ESP8266sunsetLED" (https://github.com/hubklo212/ESP8266sunsetLED))
 
 ## *Quick setup instruction*:
 1. Flash the ESP8266 with the program. Specify the WiFi network parameters of yours. Remember the IP address of the board (shown in serial or you can check it in the router/hotspot settings) (you can also change the duration of LEDs being turned on).
