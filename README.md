@@ -25,7 +25,7 @@ NodeMCU Pinout
 WS2812B - classic addressable LED strip powered with DC5V. We used 1m of it (60LEDs/m). It came in with the connector soldered to it.
 
 ## *Software used*:
-Android Studio - application for android
+Android Studio - application for android (the code i wrote is in app/src/main/java/com/hubklo212/sunsetled)
 
 Visual Studio Code with PlatformIO - ESP8266 application (code in different repository: "ESP8266sunsetLED" (https://github.com/hubklo212/ESP8266sunsetLED))
 
