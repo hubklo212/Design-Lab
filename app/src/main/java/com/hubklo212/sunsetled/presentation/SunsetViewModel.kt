@@ -74,6 +74,8 @@ class SunsetViewModel(
             }
         }
     }
+
+    // This function implements the textbox for parsing the time string
     @OptIn(ExperimentalMaterial3Api::class)
     @Composable
     fun TextFieldWithLabelAndPlaceHolder(onTextChange: (String) -> Unit) {
@@ -90,6 +92,8 @@ class SunsetViewModel(
         )
 
     }
+
+    // Text field for entering the esp ip address
     @OptIn(ExperimentalMaterial3Api::class)
     @Composable
     fun TextFieldEspIP(onTextChange: (String) -> Unit) {

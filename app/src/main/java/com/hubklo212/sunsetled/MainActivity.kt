@@ -90,7 +90,10 @@ class MainActivity : ComponentActivity() {
                     // Collect and show error toast when triggered by SunsetViewModel
                     val sunsetTime = mainVm.sunset.collectAsState().value
                     val context = LocalContext.current
+
+                    //
                     var dataToSend = sunsetTime.results.sunset
+                    // Default ESP8266 device IP address (likely the reason of errors, to delete later)
                     var espIP : String = "192.168.137.102"
                     var parsedTime by remember { mutableStateOf("") }
                     Column(
@@ -99,6 +102,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.fillMaxSize()
                     ) {
                         Spacer(modifier = Modifier.height(48.dp))
+                        // Button to initiate data send
                         Button(
                             onClick = {
                                 sendDataToESP(espIP, dataToSend) { result ->
@@ -112,6 +116,7 @@ class MainActivity : ComponentActivity() {
                         mainVm.TextFieldWithLabelAndPlaceHolder { text ->
                             parsedTime = text
                         }
+                        // Determine the data to send based on user input
                         dataToSend = if (parsedTime.isNotBlank()) {
                             // Use the parsedTime if it's not blank
                             parsedTime
@@ -119,6 +124,7 @@ class MainActivity : ComponentActivity() {
                             // Use the original sunset time if parsedTime is blank
                             sunsetTime.results.sunset
                         }
+                        // Text field for ESP8266 device IP input
                         mainVm.TextFieldEspIP {text2 ->
                             espIP = text2
                         }
