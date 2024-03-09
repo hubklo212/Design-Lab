@@ -1,9 +1,7 @@
 # **Design Laboratory - group 5/team 4**
 
 ## *Authors:* 
-Hubert Kloc,
-
-Adrian Cich
+Hubert Kloc, Adrian Cich
 
 ## *Project Topic*: 
 Sunset/Fixed Time Controlled Lamp (WiFi communication with an android application)
